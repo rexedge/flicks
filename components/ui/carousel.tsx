@@ -45,7 +45,7 @@ const Carousel = ({ images, nav = false, pagination = true }: Props) => {
 		const timeoutId = setTimeout(() => {
 			setDirection(1);
 			setCurrentIndex((currentIndex + 1) % images.length);
-		}, 3000);
+		}, 5000);
 
 		return () => clearTimeout(timeoutId);
 	}, [currentIndex, images.length]);
@@ -75,7 +75,8 @@ const Carousel = ({ images, nav = false, pagination = true }: Props) => {
 	));
 
 	return (
-		<div className='relative w-full md:aspect-[21/9] aspect-mobile'>
+		<div className='relative md:aspect-desktop aspect-mobile'>
+			{/* overlay */}
 			{/* <div className='absolute z-10 left-0 right-0 top-0 bottom-0 bg-primary-dark opacity-40'></div> */}
 			{nav && (
 				<>
@@ -113,9 +114,11 @@ const Carousel = ({ images, nav = false, pagination = true }: Props) => {
 					</div>
 				</>
 			)}
-			<div className='flex pb-4 md:pb-10 justify-center absolute bottom-0 left-0 right-0'>
-				{pagination && paginationItems}
-			</div>
+			{pagination && (
+				<div className='flex pb-4 md:pb-10 justify-center absolute bottom-0 left-0 right-0'>
+					{paginationItems}
+				</div>
+			)}
 
 			<motion.div
 				className='relative w-full h-full'
@@ -125,14 +128,15 @@ const Carousel = ({ images, nav = false, pagination = true }: Props) => {
 				initial='enter'
 				animate='center'
 				exit='exit'
-				transition={{ duration: 0.6 }}
+				transition={{ duration: 0.4 }}
 			>
 				<Image
 					src={images[currentIndex].src}
 					alt={images[currentIndex].alt}
-					layout='fill'
-					objectFit='cover'
-					objectPosition='bottom'
+					className='w-full object-cover'
+					style={{ height: '100%', maxWidth: '100%' }}
+					height={900}
+					width={1600}
 				/>
 				<div className='absolute flex items-center justify-center bottom-0 top-0 right-0 left-0 z-30 p-4 text-primary-light'>
 					<div className='text-center'>

@@ -14,15 +14,20 @@ import React from 'react';
 import Container from './container';
 import Section from './section';
 
-export default function Footer() {
+interface FooterProps {
+	fixed?: boolean;
+}
+
+export default function Footer({ fixed = false }: FooterProps): JSX.Element {
+	const isFixed = fixed ? 'fixed bottom-0 left-0 right-0' : '';
 	return (
-		<Section color='bg-primary-light'>
+		<Section className={`bg-primary-light pt-10 ${isFixed}`}>
 			<div className='mx-auto'>
-				<div className='py-10'>
-					<Container maxWidth='max-w-7xl'>
+				<Container maxWidth='px-5 max-w-7xl'>
+					<div>
 						<div className='grid grid-cols-12 text-primary-dark'>
-							<div className='col-span-12 lg:col-span-4'>
-								<div className='flex flex-col justify-center'>
+							<div className='col-span-12 lg:col-span-4 mb-8'>
+								<div className='grid'>
 									<Image
 										src='/logo.png'
 										className='foot-logo'
@@ -32,7 +37,7 @@ export default function Footer() {
 									/>
 
 									<div className='mt-5'>
-										<p className='mb-3 flex flex-row gap-10'>
+										<p className='mb-3 gap-10'>
 											FLICK is a first-class
 											phone accessories brand.
 											We concentrate on
@@ -67,7 +72,7 @@ export default function Footer() {
 								</div>
 							</div>
 
-							<div className='col-spam-6 lg:col-span-2'>
+							<div className='col-span-6 lg:col-span-2 mb-8'>
 								<div className=''>
 									<h3 className='text-xl font-bold '>
 										PRODUCTS
@@ -95,7 +100,7 @@ export default function Footer() {
 								</div>
 							</div>
 
-							<div className='col-spam-6 lg:col-span-2'>
+							<div className='col-span-6 lg:col-span-2 mb-8'>
 								<div className=''>
 									<h3 className='text-xl font-bold '>
 										USEFUL LINKS
@@ -117,7 +122,7 @@ export default function Footer() {
 								</div>
 							</div>
 
-							<div className='col-span-12 lg:col-span-4'>
+							<div className='col-span-12 lg:col-span-4 mb-8'>
 								<div className=''>
 									<h3 className='text-xl font-bold '>
 										Subscribe Newsletter
@@ -129,7 +134,7 @@ export default function Footer() {
 									</p>
 									<form className='w-full flex flex-wrap mt-5 rounded overflow-hidden'>
 										<input
-											className='flex-1 px-2 bg-primary  placeholder:text-primary-light py-2 font-medium bg-'
+											className='flex-1 px-2 bg-primary placeholder:text-primary-light py-2 font-medium bg-'
 											type='text'
 											name='email'
 											placeholder='Enter Your Email'
@@ -145,11 +150,11 @@ export default function Footer() {
 								</div>
 							</div>
 						</div>
-					</Container>
-				</div>
+					</div>
+				</Container>
 
 				<div
-					className='border-t mt-4 py-10 text-center text-primary-dark dark:text-primary
+					className='w-screen border-t mt-4 py-10 text-center text-primary-light bg-primary-dark bg-opacity-80
 				 '
 				>
 					<p className='mb-5'>

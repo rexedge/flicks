@@ -17,8 +17,6 @@ export default function SwiperSlider() {
 		<>
 			<Swiper
 				spaceBetween={30}
-				// slidesPerView={1}
-				// centeredSlides={true}
 				breakpoints={{
 					640: {
 						slidesPerView: 1,
@@ -45,7 +43,7 @@ export default function SwiperSlider() {
 				modules={[Autoplay, Pagination, Navigation]}
 				className='mySwiper'
 			>
-				<div className="relative w-full overflow-hidden after:clear-both after:block after:content-[''] z-10">
+				<div className="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
 					{LATEST_PRODUCTS.map((card) => (
 						<SwiperSlide
 							key={card.id}
@@ -61,19 +59,4 @@ export default function SwiperSlider() {
 			</Swiper>
 		</>
 	);
-}
-
-{
-	/* <div
-	key={index}
-	className={`h-1 md:h-2 lg:h3 w-5 md:w-8 lg:w-12 mx-1 z-20 cursor-pointer rounded-full transition duration-300 ${
-		index === currentIndex
-			? 'bg-primary dark:bg-primary-dark'
-			: 'bg-primary-dark dark:bg-primary-light'
-	}`}
-	onClick={() => {
-		setDirection(index > currentIndex ? 1 : -1);
-		setCurrentIndex(index);
-	}}
-></div>; */
 }

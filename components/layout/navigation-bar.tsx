@@ -29,16 +29,14 @@ export default function Navbar({
 		{ title: 'About', url: '/about' },
 		{ title: 'Products', url: '/products' },
 	],
-	callToAction = [{ title: 'Contact', url: '/' }],
+	callToAction = [{ title: 'Contact', url: '/contact' }],
 	fixed = false,
 }: NavbarProps): JSX.Element {
 	const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 	const isFixed = fixed ? 'fixed top-0 left-0 right-0' : '';
 
 	return (
-		<header
-			className={`drop-shadow z-50 bg-primary-light dark:bg-primary-dark ${isFixed}`}
-		>
+		<header className={`drop-shadow bg-primary-light ${isFixed}`}>
 			<nav
 				className='mx-auto flex max-w-7xl items-center justify-between p-4 lg:px-8'
 				aria-label='Global'
@@ -46,12 +44,12 @@ export default function Navbar({
 				{logo && (
 					<div className='flex lg:flex-1'>
 						<Link
-							href='#'
+							href='/'
 							className='-m-1.5 p-1.5'
 						>
 							<span className='sr-only'>{title}</span>
 							<Image
-								className='h-10 w-auto dark:invert'
+								className='h-10 w-auto'
 								height={100}
 								width={40}
 								src={logo}
@@ -63,7 +61,7 @@ export default function Navbar({
 				<div className='flex lg:hidden'>
 					<button
 						type='button'
-						className='-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-primary-dark dark:text-primary-light'
+						className='-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-primary-dark'
 						onClick={() => setMobileMenuOpen(true)}
 					>
 						<span className='sr-only'>Open main menu</span>
@@ -87,7 +85,7 @@ export default function Navbar({
 							<Link
 								key={index}
 								href={link.url}
-								className='text-sm font-semibold leading-6 text-primary-dark dark:text-primary-light hover:text-primary'
+								className='text-sm font-semibold leading-6 text-primary-dark hover:text-primary'
 							>
 								{link.title}
 							</Link>
@@ -99,7 +97,7 @@ export default function Navbar({
 							<Link
 								key={index}
 								href={cta.url}
-								className='ml-3 bg-primary-dark text-sm font-semibold leading-6 text-primary-light dark:text-primary-light px-3 py-2 rounded-lg hover:opacity-75'
+								className='ml-3 bg-primary-dark text-sm font-semibold leading-6 text-primary-light px-3 py-2 rounded-lg hover:opacity-75'
 							>
 								{cta.title}{' '}
 								<span aria-hidden='true'>&rarr;</span>
@@ -115,7 +113,7 @@ export default function Navbar({
 				onClose={setMobileMenuOpen}
 			>
 				<div className='fixed inset-0 z-30' />
-				<Dialog.Panel className='fixed inset-y-0 right-0 z-30 w-full overflow-y-auto bg-primary-light dark:bg-primary-dark px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10'>
+				<Dialog.Panel className='fixed inset-y-0 right-0 z-30 w-full overflow-y-auto bg-primary-light px-6 py-6 sm:max-w-sm sm:ring-1'>
 					<div className='flex items-center justify-between'>
 						{logo && (
 							<Link
@@ -127,7 +125,6 @@ export default function Navbar({
 								</span>
 								<Image
 									src={logo}
-									className={'dark:invert'}
 									alt=''
 									height={50}
 									width={50}
@@ -136,7 +133,7 @@ export default function Navbar({
 						)}
 						<button
 							type='button'
-							className='-m-2.5 rounded-md p-2.5 text-primary-dark dark:text-primary-light'
+							className='-m-2.5 rounded-md p-2.5 text-primary-dark'
 							onClick={() => setMobileMenuOpen(false)}
 						>
 							<span className='sr-only'>Close menu</span>
@@ -154,7 +151,7 @@ export default function Navbar({
 										<Link
 											key={index}
 											href={link.url}
-											className='-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-primary-dark dark:text-primary-light hover:bg-gray-50'
+											className='-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-primary-dark  hover:bg-gray-50'
 										>
 											{link.title}
 										</Link>
@@ -167,7 +164,7 @@ export default function Navbar({
 											<Link
 												key={index}
 												href={link.url}
-												className='-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-primary-dark dark:text-primary-light hover:bg-gray-50'
+												className='-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-primary-dark hover:bg-gray-50'
 											>
 												{link.title}
 											</Link>
