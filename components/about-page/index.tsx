@@ -2,10 +2,12 @@ import React, { Fragment } from 'react';
 import PageIntro from '../ui/page-intro';
 import Breadcrumb from '../ui/breadcrumb';
 import AboutFlick from './about-flick';
+import LoadingIndicator from '../ui/loading-indicator';
 
 export default function AboutPage() {
 	return (
 		<Fragment>
+			<LoadingIndicator />
 			<PageIntro
 				src='/images/background/3.webp'
 				alt=''

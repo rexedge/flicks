@@ -18,9 +18,17 @@ export default function ContactForm() {
 									Head Office
 								</div>
 								<div className=''>
-									Polystar Building, Marwa Lekki,
-									<br />
-									Lagos, Nigeria
+									Shop 1 & 2, VIP Plaza, Chinese
+									Line, Alaba International Market,
+									Ojo, Lagos
+								</div>
+
+								<div className='font-bold'>
+									Branch Office
+								</div>
+								<div className=''>
+									Shop 8, CB Plaza, Alaba
+									International Market, Ojo, Lagos
 								</div>
 							</div>
 						</div>
@@ -29,9 +37,9 @@ export default function ContactForm() {
 							<div className=''>
 								<div className='font-bold'>Phone</div>
 								<div className=''>
-									+234 812 345 678
-									<br />
-									+234 812 345 678
+									+ 234 806 0972 989
+									<br />+ 234 803 3481 446
+									<br />+ 234 703 665 2105
 								</div>
 							</div>
 						</div>
@@ -39,12 +47,12 @@ export default function ContactForm() {
 							<Mail sx={{ fontSize: 40 }} />
 							<div className=''>
 								<div className='font-bold'>
-									Head Office
+									Email Address
 								</div>
 								<div className=''>
-									info@flick.com
+									info@flickaccessories.ng
 									<br />
-									www.flick.com
+									flicksmartaccessories@gmail.com
 								</div>
 							</div>
 						</div>

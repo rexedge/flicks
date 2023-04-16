@@ -50,22 +50,30 @@ export default function Footer({ fixed = false }: FooterProps): JSX.Element {
 										<p className='mb-3 flex flex-row gap-10'>
 											<Phone />
 											<span>
-												+ 234 812 345 678
+												+ 234 806 0972 989
+												<br />+ 234 803 3481
+												446
+												<br />+ 234 703 665
+												2105
 											</span>
 										</p>
 
 										<p className='mb-3 flex flex-row gap-10'>
 											<Mail />
 											<span>
-												info@flick.com
+												info@flickaccessories.ng
+												<br />
+												flicksmartaccessories@gmail.com
 											</span>
 										</p>
 
 										<p className='mb-3 flex flex-row gap-10'>
 											<LocationOn />
 											<span>
-												Marwa, Lekki, Lagos,
-												Nigeria
+												Shop 1 & 2, VIP
+												Plaza, Chinese Line,
+												Alaba International
+												Market, Ojo, Lagos
 											</span>
 										</p>
 									</div>

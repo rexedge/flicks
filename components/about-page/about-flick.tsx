@@ -51,7 +51,7 @@ export default function AboutFlick() {
 							</div>
 						</div>
 						<div className='md:flex flex-row'>
-							<div className='text-xl text-justify px-5 md:w-1/2 w-full mb-5'>
+							<div className='text-xl text-justify px-5 md:w-1/2 mx-auto w-full mb-5'>
 								<p className='pb-10'>
 									My name is Obiajuru Chinedu, I have
 									always wanted to own a business
@@ -65,8 +65,8 @@ export default function AboutFlick() {
 									connotes something fast, quick, a
 									propeller, it literally means to
 									spark something quickly, which is
-									in line with was chargers and other
-									accessories do.
+									in line with what chargers and
+									other accessories do.
 								</p>
 								<p className='pb-10'>
 									I believe that is a fitting name
@@ -75,13 +75,13 @@ export default function AboutFlick() {
 									quick.
 								</p>
 								<p className='pb-10'>
-									In the four years we have been
+									In the few years we have been
 									operating, Flick has over 50 staff
 									ready to meet your phone accessory
 									needs.
 								</p>
 							</div>
-							<div className='text-xl text-justify px-5 md:w-1/2 w-full mb-5'>
+							{/* <div className='text-xl text-justify px-5 md:w-1/2 w-full mb-5'>
 								<Card>
 									<Image
 										src='/images/about/ceo.jpg'
@@ -94,7 +94,7 @@ export default function AboutFlick() {
 										}}
 									/>
 								</Card>
-							</div>
+							</div> */}
 						</div>
 					</div>
 				</Container>
