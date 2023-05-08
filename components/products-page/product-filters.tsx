@@ -40,12 +40,12 @@ export default function ProductFilters({
 
 	return (
 		<div className=' bg-primary-light rounded-lg text-sm border border-primary'>
-			<h2 className='px-3 py-3 border-b border-primary'>Filter</h2>
+			<h2 className='px-3 py-3 border-b border-primary'>FILTER</h2>
 			<div className={'filterList mx-1 pb-3'}>
 				{categories.map((category) => (
 					<div
 						key={category}
-						className={`${'filter px-2 my-2 rounded-md'} ${
+						className={`${'filter px-2 my-2 rounded cursor-pointer uppercase'} ${
 							selectedFilters.includes(category)
 								? 'bg-primary-dark text-primary-light'
 								: ''
