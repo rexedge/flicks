@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Product } from '../../types/types';
 import { fetchProductListData } from '@/utils/fetch-product-list-data';
 import ProductCard from './product-card';
