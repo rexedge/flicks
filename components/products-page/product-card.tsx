@@ -1,6 +1,7 @@
 import { Product } from '@/types/types';
 import SplitText from '@/utils/split-texts';
 import { Description, Star } from '@mui/icons-material';
+import Image from 'next/image';
 
 interface Props {
 	product: Product;
@@ -16,9 +17,11 @@ export default function ProductCard({ product }: Props) {
 			}
 		>
 			<div className={'card-image'}>
-				<img
+				<Image
 					src={image}
 					alt={name}
+					height={300}
+					width={400}
 				/>
 			</div>
 			<div className={'card-details p-2'}>

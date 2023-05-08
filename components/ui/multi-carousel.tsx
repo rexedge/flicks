@@ -61,7 +61,7 @@ const MultiCarousel = ({
 				clearInterval(intervalId);
 			}
 		};
-	}, [autoPlay, slideCount, isLastSlide]);
+	}, [autoPlay, slideCount, isLastSlide, intervalId]);
 
 	return (
 		<div className='relative'>

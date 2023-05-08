@@ -26,7 +26,7 @@ export default function ProductBody() {
 			)
 		);
 		setFilteredProducts(filteredList);
-	}, [selectedFilters]);
+	}, [selectedFilters, products]);
 	const handleFilterChange = (filters: string[]) => {
 		setSelectedFilters(filters);
 	};
