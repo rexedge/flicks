@@ -1,6 +1,6 @@
 import Footer from '@/components/layout/footer';
 import Navbar from '@/components/layout/navigation-bar';
-import ProductPage from '@/components/product-page';
+import ProductPage from '@/components/products-page';
 import Head from 'next/head';
 
 export default function About() {

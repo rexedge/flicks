@@ -1,0 +1,188 @@
+{
+	"products": [
+		{
+			"id": "0",
+			"name": "FC01 Car Charger",
+			"image": "/images/products/fc/01.jpeg",
+			"price": 10.99,
+			"description": "Model: FC01; Input: 12-24v; Output: 5v=2.4A; USB: 2; Cable: Micro; Length: 1m; Speed: Fast charging; PE2.0 & Qc3.0: compatible; Safe and strong",
+			"categories": ["Charger", "Car charger"]
+		},
+		{
+			"id": "1",
+			"name": "FC02 Car Charger",
+			"image": "/images/products/fc/02.jpeg",
+			"price": 10.99,
+			"description": "Model: FC02; Input: 12-24v; Output: 5v=2.4A; USB: 2; Cable: Micro; Length: 1m; Speed: Fast charging; PE2.0 & Qc3.0: compatible; Safe and strong",
+			"categories": ["Charger", "Car charger"]
+		},
+		{
+			"id": "2",
+			"name": "FC03 Car Charger",
+			"image": "/images/products/fc/03.jpeg",
+			"price": 10.99,
+			"description": "Model: FC03; Input: 12-24v; Output: 5v=2.4A; USB: 2; Cable: Micro; Length: 1m; Speed: Fast charging; PE2.0 & Qc3.0: compatible; Safe and strong",
+			"categories": ["Charger", "Car charger"]
+		},
+		{
+			"id": "3",
+			"name": "FC04 Car Charger",
+			"image": "/images/products/fc/04.jpeg",
+			"price": 10.99,
+			"description": "Model: FC04; Input: 12-24v; Output: 5v=2.4A; USB: 2; Cable: Micro; Length: 1m; Speed: Fast charging; PE2.0 & Qc3.0: compatible; Safe and strong",
+			"categories": ["Charger", "Car charger"]
+		},
+		{
+			"id": "4",
+			"name": "FC05 Car Charger",
+			"image": "/images/products/fc/05.jpeg",
+			"price": 10.99,
+			"description": "Model: FC05; Input: 12-24v; Output: 5v=2.4A; USB: 2; Cable: Micro; Length: 1m; Speed: Fast charging; PE2.0 & Qc3.0: compatible; Safe and strong",
+			"categories": ["Charger", "Car charger"]
+		},
+		{
+			"id": "5",
+			"name": "FE02 Earpiece",
+			"image": "/images/products/fe/02.jpeg",
+			"price": 10.99,
+			"description": "Model: FE02; Plug type: 3.5mm; Cable length: 1.2m; Speaker: 10mm; Frequency: 20-20,000Hz; Sensitivity: 105dB; Impedance: 32Ω; Microphone: Yes; Control: Yes; Material: TPE; Color: White; Compatible: All devices with 3.5mm jack",
+			"categories": ["Earpiece"]
+		},
+		{
+			"id": "6",
+			"name": "FS02 iOS Charger",
+			"image": "/images/products/fs/02_ios.jpeg",
+			"price": 10.99,
+			"description": "Model: FS02;Plug Type: UK/Nigeria 3 pin;Input: 100-240v 50/60hz;Output: 5v=3A/9v=2A/12v; Cable: iOS;USB: 1",
+			"categories": ["Charger"]
+		},
+		{
+			"id": "7",
+			"name": "FS02 Type C Charger",
+			"image": "/images/products/fs/02_typec.jpeg",
+			"price": 10.99,
+			"description": "Model: FS02;Plug Type: UK/Nigeria 3 pin;Input: 100-240v 50/60hz;Output: 5v=3A/9v=2A/12v; Cable: Type C;USB: 1",
+			"categories": ["Charger"]
+		},
+		{
+			"id": "8",
+			"name": "FS02 Micro Charger",
+			"image": "/images/products/fs/02_micro.jpeg",
+			"price": 10.99,
+			"description": "Model: FS02;Plug Type: UK/Nigeria 3 pin;Input: 100-240v 50/60hz;Output: 5v=3A/9v=2A/12v; Cable: Micro;USB: 1",
+			"categories": ["Charger"]
+		},
+		{
+			"id": "9",
+			"name": "FS03 iOS Charger",
+			"image": "/images/products/fs/03_ios.jpeg",
+			"price": 10.99,
+			"description": "Model: FS03;Plug type:uk/Nigeria 3 pin;Input : 100-240v 50/60Hz;Output: 5v=3A/9v=2A/12v;Cable: iOS;Length: 1m;Speed: Fast charging ;PE2.0 & Qc3.0: compatible ;Safe and strong ",
+			"categories": ["Charger"]
+		},
+		{
+			"id": "10",
+			"name": "FS03 Type C Charger",
+			"image": "/images/products/fs/03_typec.jpeg",
+			"price": 10.99,
+			"description": "Model: FS03;Plug type:uk/Nigeria 3 pin;Input : 100-240v 50/60Hz;Output: 5v=3A/9v=2A/12v;Cable: Tyoe C;Length: 1m;Speed: Fast charging ;PE2.0 & Qc3.0: compatible ;Safe and strong ",
+			"categories": ["Charger"]
+		},
+		{
+			"id": "11",
+			"name": "FS03 Micro Charger",
+			"image": "/images/products/fs/03_micro.jpeg",
+			"price": 10.99,
+			"description": "Model: FS03;Plug type:uk/Nigeria 3 pin;Input : 100-240v 50/60Hz;Output: 5v=3A/9v=2A/12v;Cable: Micro/v8;Length: 1m;Speed: Fast charging ;PE2.0 & Qc3.0: compatible ;Safe and strong ",
+			"categories": ["Charger"]
+		},
+		{
+			"id": "12",
+			"name": "FS04 iOS Charger",
+			"image": "/images/products/fs/04_ios.jpeg",
+			"price": 10.99,
+			"description": "MODEL :FS04;Plug type:uk/Nigeria 3 pin;Input : 100-240v 50/60Hz;Output: 5v=3A/9v=2A/12v;Cable: iOS;Length: 1m;Speed: Fast charging ;PE2.0 & Qc3.0: compatible ;Safe and strong",
+			"categories": ["Charger"]
+		},
+		{
+			"id": "13",
+			"name": "FS04 Micro Charger",
+			"image": "/images/products/fs/04_micro.jpeg",
+			"price": 10.99,
+			"description": "MODEL :FS04;Plug type:uk/Nigeria 3 pin;Input : 100-240v 50/60Hz;Output: 5v=3A/9v=2A/12v;Cable: Micro/V8;Length: 1m;Speed: Fast charging ;PE2.0 & Qc3.0 compatible ;Safe and strong",
+			"categories": ["Charger"]
+		},
+		{
+			"id": "14",
+			"name": "FS04 Type C",
+			"image": "/images/products/fs/04_typec.jpeg",
+			"price": 10.99,
+			"description": "MODEL :FS04;Plug type:uk/Nigeria 3 pin;Input : 100-240v 50/60Hz;Output: 5v=3A/9v=2A/12v;Cable: Type C;Length: 1m;Speed: Fast charging ;PE2.0 & Qc3.0 compatible ;Safe and strong",
+			"categories": ["Charger"]
+		},
+		{
+			"id": "15",
+			"name": "FS06 micro Charger",
+			"image": "/images/products/fs/06_ios.jpeg",
+			"price": 10.99,
+			"description": "MODEL :FS06;Plug type:uk/Nigeria 3 pin;Input : 100-240v 50/60Hz;Output: 5v=3A/9v=2A/12v;Cable: iOS;Length: 1m;Speed: Fast charging ;PE2.0 & Qc3.0:compatible ;USB: 1",
+			"categories": ["Charger"]
+		},
+		{
+			"id": "16",
+			"name": "FS06 Type C Charger",
+			"image": "/images/products/fs/06_typec.jpeg",
+			"price": 10.99,
+			"description": "MODEL :FS06;Plug type:uk/Nigeria 3 pin;Input : 100-240v 50/60Hz;Output: 5v=3A/9v=2A/12v;Cable: Type C;Length: 1m;Speed: Fast charging ;PE2.0 & Qc3.0:compatible ;USB: 1",
+			"categories": ["Charger"]
+		},
+		{
+			"id": "17",
+			"name": "FS06 Micro Charger",
+			"image": "/images/products/fs/06_micro.jpeg",
+			"price": 10.99,
+			"description": "MODEL :FS06;Plug type:uk/Nigeria 3 pin;Input : 100-240v 50/60Hz;Output: 5v=3A/9v=2A/12v;Cable: Micro/v8;Length: 1m;Speed: Fast charging ;PE2.0 & Qc3.0:compatible ;USB: 1",
+			"categories": ["Charger"]
+		},
+		{
+			"id": "18",
+			"name": "Adapter 08",
+			"image": "/images/products/fs/08.jpeg",
+			"price": 10.99,
+			"description": "MODEL :FS08;Plug type:uk/Nigeria 3 pin;Input : 100-240v 50/60Hz;Output: 5v=3A/9v=2A/12v;Cable: micro;Length: 1m;Speed: Fast charging ;PE2.0 & Qc3.0 compatible ;USB: 1",
+			"categories": ["Charger"]
+		},
+		{
+			"id": "19",
+			"name": "FS11 Type C Adapter",
+			"image": "/images/products/fs/11_typec.jpeg",
+			"price": 10.99,
+			"description": "MODEL :FS11;Plug type:uk/Nigeria 3 pin;Input : 100-240v 50/60Hz;Output: 5v=3A/9v=2A/12v;Cable: type c;Length: 1m;Speed: Fast charging ;PE2.0 & Qc3.0 compatible ;USB: 1",
+			"categories": ["Charger"]
+		},
+		{
+			"id": "20",
+			"name": "FS11 Micro Adapter",
+			"image": "/images/products/fs/11_micro.jpeg",
+			"price": 10.99,
+			"description": "MODEL :FS11;Plug type:uk/Nigeria 3 pin;Input : 100-240v 50/60Hz;Output: 5v=3A/9v=2A/12v;Cable: Micro/V8;Length: 1m;Speed: Fast charging ;PE2.0 & Qc3.0 compatible ;USB: 1",
+			"categories": ["Charger"]
+		},
+		{
+			"id": "21",
+			"name": "FS11 iOS Adapter",
+			"image": "/images/products/fs/11_ios.jpeg",
+			"price": 10.99,
+			"description": "MODEL :FS11;Plug type:uk/Nigeria 3 pin;Input : 100-240v 50/60Hz;Output: 5v=3A/9v=2A/12v;Cable: Micro/V8;Length: 1m;Speed: Fast charging ;PE2.0 & Qc3.0 compatible ;USB: 1",
+			"categories": ["Charger"]
+		},
+		{
+			"id": "22",
+			"name": "S10+ Adapter",
+			"image": "/images/products/sc/10+.jpeg",
+			"price": 10.99,
+			"description": "MODEL :S10+;Plug type:uk/Nigeria 3 pin;Input : 100-240v 50/60Hz;Output: 5v=3A/9v=2A/12v;Cable: type c;Length: 1m;Speed: Fast charging ;PE2.0 & Qc3.0 compatible ;USB: 1;Suitable for all type c devices ",
+			"categories": ["Charger"]
+		}
+	]
+}
