@@ -35,7 +35,7 @@ export default function ProductFilters({
 	return (
 		<div className=' bg-primary-light rounded-lg text-sm border border-primary'>
 			<h2 className='px-3 py-3 border-b border-primary'>FILTER</h2>
-			<div className={'filterList mx-1 pb-3'}>
+			<div className={'filterList mx-1'}>
 				{categories.map((category) => (
 					<div
 						key={category}
@@ -54,7 +54,7 @@ export default function ProductFilters({
 				{selectedFilters.map((filter) => (
 					<span
 						key={filter}
-						className=' cursor-pointer border border-primary-dark rounded px-2 py-1 mx-1 my-1'
+						className=' cursor-pointer  rounded px-2 mx-1 my-1'
 						onClick={() => handleFilterRemove(filter)}
 					>
 						RESET
