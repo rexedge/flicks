@@ -2,7 +2,6 @@ import React, { Fragment } from 'react';
 import PageIntro from '../ui/page-intro';
 import Breadcrumb from '../ui/breadcrumb';
 import LoadingIndicator from '../ui/loading-indicator';
-import { useState, useEffect } from 'react';
 import Head from 'next/head';
 import ProductBody from './product-body';
 

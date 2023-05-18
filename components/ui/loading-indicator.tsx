@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import 'tailwindcss/tailwind.css';
 
 const styles = {
-	loadingBar: `fixed top-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-500 to-green-500 z-100`,
+	loadingBar: `fixed top-0 left-0 right-0 h-0.5 bg-gradient-to-r from-blue-500 to-green-500 z-100`,
 	loadingBarContainer: `relative`,
 	loadingBarProgress: `absolute top-0 left-0 h-full bg-white rounded-full`,
 	loadingBarAnimation: `animate-loading-bar-progress`,

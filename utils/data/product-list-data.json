@@ -183,6 +183,70 @@
 			"price": 10.99,
 			"description": "MODEL :S10+;Plug type:uk/Nigeria 3 pin;Input : 100-240v 50/60Hz;Output: 5v=3A/9v=2A/12v;Cable: type c;Length: 1m;Speed: Fast charging ;PE2.0 & Qc3.0 compatible ;USB: 1;Suitable for all type c devices ",
 			"categories": ["Charger"]
+		},
+		{
+			"id": "23",
+			"name": "FL404 Adapter",
+			"image": "/images/products/fl/404.jpeg",
+			"price": 10.99,
+			"description": "MODEL :FL404;Plug type:uk/Nigeria 3 pin;Input : 100-240v 50/60Hz;Output: 5v=3A/9v=2A/12v;Cable: Micro/V8;Length: 1m;Speed: Fast ;PE2.0 & Qc3.0 compatible ;USB: 4;Suitable for all devices ",
+			"categories": ["Charger"]
+		},
+		{
+			"id": "24",
+			"name": "FL801 Adapter",
+			"image": "/images/products/fl/801.jpeg",
+			"price": 10.99,
+			"description": "MODEL :FL801;Plug type:uk/Nigeria 3 pin;Input : 100-240v 50/60Hz;Output: 5v=3A/9v=2A/12v;Cable: Micro/V8;Length: 1m;Speed: Fast ;PE2.0 & Qc3.0 compatible ;USB: 8;Suitable for all devices ",
+			"categories": ["Charger"]
+		},
+		{
+			"id": "25",
+			"name": "FL207 Adapter",
+			"image": "/images/products/fl/207.jpeg",
+			"price": 10.99,
+			"description": "MODEL :FL207;Plug type:uk/Nigeria 3 pin;Input : 100-240v 50/60Hz;Output: 5v=3A/9v=2A/12v;Cable: Micro/V8;Length: 1m;Speed: Fast ;PE2.0 & Qc3.0 compatible ;USB: 4;Suitable for all devices",
+			"categories": ["Charger"]
+		},
+		{
+			"id": "26",
+			"name": "TC01 Adapter",
+			"image": "/images/products/tc/01a.jpeg",
+			"price": 10.99,
+			"description": "MODEL :TC01;Color: White/Black;Plug type:uk/Nigeria 3 pin;Input : 100-240v 50/60Hz;Output: 5v=3A/9v=2A/12v;Cable: type c;Length: 1m;Speed: Fast charging ;PE2.0 & Qc3.0 compatible ;USB: 1;Suitable for all type c devices ;Unique design",
+			"categories": ["Charger"]
+		},
+		{
+			"id": "27",
+			"name": "S8 Adapter",
+			"image": "/images/products/sc/08.jpeg",
+			"price": 10.99,
+			"description": "MODEL :S8;Plug type:uk/Nigeria 3 pin;Input : 100-240v 50/60Hz;Output: 5v=3A/9v=2A/12v;Cable: type c;Length: 1m;Speed: Fast charging ;PE2.0 & Qc3.0 compatible ;USB: 1;Color: black ;Suitable for all type c devices",
+			"categories": ["Charger"]
+		},
+		{
+			"id": "28",
+			"name": "FL402 Adapter",
+			"image": "/images/products/fl/402.jpeg",
+			"price": 10.99,
+			"description": "MODEL :FL402;Plug type:uk/Nigeria 3 pin;Input : 100-240v 50/60Hz;Output: 5v=3A/9v=2A/12v;Cable: Micro/V8;Length: 1m;Speed: Fast ;PE2.0 & Qc3.0 compatible ;USB: 4;Suitable for all devices ;Unique design",
+			"categories": ["Charger"]
+		},
+		{
+			"id": "29",
+			"name": "CS63 Socket",
+			"image": "/images/products/cs/63.jpeg",
+			"price": 10.99,
+			"description": "MODEL CS63;Output 5v-3.4A /17w;Power 3200w;usb port = 6;AC out = 3;Charging = fast;Cable = 2m",
+			"categories": ["Socket"]
+		},
+		{
+			"id": "30",
+			"name": "CS43 Socket",
+			"image": "/images/products/cs/63.jpeg",
+			"price": 10.99,
+			"description": "MODEL CS43;Output 5v-3.4A /17w;Power 3000w;usb port = 4;AC out = 3;Charging = fast;Cable = 2m;Unique design ",
+			"categories": ["Socket"]
 		}
 	]
 }

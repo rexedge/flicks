@@ -25,18 +25,12 @@ export default function ProductFilters({
 	}, [products]);
 
 	const handleFilterChange = (category: string) => {
-		if (selectedFilters.includes(category)) {
-			onFilterChange(
-				selectedFilters.filter((filter) => filter !== category)
-			);
-		} else {
-			onFilterChange([...selectedFilters, category]);
-		}
+		onFilterChange([category]);
 	};
 
-	// const handleFilterRemove = (filter: string) => {
-	// 	onFilterChange(selectedFilters.filter((f) => f !== filter));
-	// };
+	const handleFilterRemove = (filter: string) => {
+		onFilterChange(selectedFilters.filter((f) => f !== filter));
+	};
 
 	return (
 		<div className=' bg-primary-light rounded-lg text-sm border border-primary'>
@@ -56,17 +50,17 @@ export default function ProductFilters({
 					</div>
 				))}
 			</div>
-			{/* <div className=''>
+			<div className='my-3'>
 				{selectedFilters.map((filter) => (
 					<span
 						key={filter}
-						className=' cursor-pointer'
+						className=' cursor-pointer border border-primary-dark rounded px-2 py-1 mx-1 my-1'
 						onClick={() => handleFilterRemove(filter)}
 					>
-						<span>x</span> {`${filter}, `}
+						RESET
 					</span>
 				))}
-			</div> */}
+			</div>
 		</div>
 	);
 }

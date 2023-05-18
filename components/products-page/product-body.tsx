@@ -31,8 +31,8 @@ export default function ProductBody() {
 		setSelectedFilters(filters);
 	};
 	return (
-		<Container maxWidth='max-w-7xl py-3 px-5'>
-			<div className='grid grid-cols-12 text-primary-dark gap-3 relative'>
+		<Container maxWidth='max-w-7xl py-3 px-5 transition-all duration-500'>
+			<div className='grid grid-cols-12 text-primary-dark gap-5 relative'>
 				<div className='col-span-12 lg:col-span-2 my-5 sticky top-0 z-10'>
 					<ProductFilters
 						products={products}
@@ -41,7 +41,7 @@ export default function ProductBody() {
 					/>
 				</div>
 				<div className='col-span-12 lg:col-span-10 my-5'>
-					<div className='grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3'>
+					<div className='grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 transition-all duration-500'>
 						{filteredProducts.length > 0 &&
 							filteredProducts.map((product) => (
 								<ProductCard
