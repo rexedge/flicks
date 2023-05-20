@@ -218,6 +218,14 @@
 		},
 		{
 			"id": "27",
+			"name": "TC02 Adapter",
+			"image": "/images/products/tc/02.jpeg",
+			"price": 10.99,
+			"description": "MODEL :TC02;Plug type:uk/Nigeria 3 pin;Input : 100-240v 50/60Hz;Output: 5v=3A/9v=2A/12v;Cable: type c;Length: 1m;Speed: Fast charging ;PE2.0 & Qc3.0 compatible ;USB: 1;Suitable for all type c devices ",
+			"categories": ["Charger"]
+		},
+		{
+			"id": "28",
 			"name": "S8 Adapter",
 			"image": "/images/products/sc/08.jpeg",
 			"price": 10.99,
@@ -225,7 +233,7 @@
 			"categories": ["Charger"]
 		},
 		{
-			"id": "28",
+			"id": "29",
 			"name": "FL402 Adapter",
 			"image": "/images/products/fl/402.jpeg",
 			"price": 10.99,
@@ -233,7 +241,7 @@
 			"categories": ["Charger"]
 		},
 		{
-			"id": "29",
+			"id": "30",
 			"name": "CS63 Socket",
 			"image": "/images/products/cs/63.jpeg",
 			"price": 10.99,
@@ -241,12 +249,44 @@
 			"categories": ["Socket"]
 		},
 		{
-			"id": "30",
+			"id": "31",
 			"name": "CS43 Socket",
 			"image": "/images/products/cs/63.jpeg",
 			"price": 10.99,
 			"description": "MODEL CS43;Output 5v-3.4A /17w;Power 3000w;usb port = 4;AC out = 3;Charging = fast;Cable = 2m;Unique design ",
 			"categories": ["Socket"]
+		},
+		{
+			"id": "32",
+			"name": "FP304 Power Bank",
+			"image": "/images/products/fp/304.jpeg",
+			"price": 10.99,
+			"description": "MODEL FP304;Power - 30,000mAh;Input - ios /micro/type c;Output - micro/type c/2 usb;Display - digital;Handle - rope;Speed - fast charging 22.5w;Pd - yes;Type c- 2 ways;Quality - Original",
+			"categories": ["Power Bank"]
+		},
+		{
+			"id": "33",
+			"name": "FP502 Power Bank",
+			"image": "/images/products/fp/502.jpeg",
+			"price": 10.99,
+			"description": "MODEL FP502;Power - 50,000mAh;Input - ios/micro/type c;Output - micro/4 usb;Display - digital;Handle - rope;Speed - quick charge ;Type c- input ;Quality - Original ;Cable - detachable",
+			"categories": ["Power Bank"]
+		},
+		{
+			"id": "34",
+			"name": "FP100 Power Bank",
+			"image": "/images/products/fp/100.jpeg",
+			"price": 10.99,
+			"description": "MODEL FP100;Power - 10,000mAh;Input - micro/type c/;Output - micro/type c/ ios/2 usb;Handle - Sticky ;Speed - quick charge ;Quality - Original ;Cables - Attached ;Color- white/ black",
+			"categories": ["Power Bank"]
+		},
+		{
+			"id": "35",
+			"name": "FP204 Power Bank",
+			"image": "/images/products/fp/204.jpeg",
+			"price": 10.99,
+			"description": "MODEL FP204;Power - 20,000mAh;Input - micro/type c;Output - micro/type c/2 usb;Display - light ;Speed - quick charge ;Quality - Original ;Cable - Attached 4;Color - white/black ",
+			"categories": ["Power Bank"]
 		}
 	]
 }
