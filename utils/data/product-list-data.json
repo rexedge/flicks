@@ -287,6 +287,38 @@
 			"price": 10.99,
 			"description": "MODEL FP204;Power - 20,000mAh;Input - micro/type c;Output - micro/type c/2 usb;Display - light ;Speed - quick charge ;Quality - Original ;Cable - Attached 4;Color - white/black ",
 			"categories": ["Power Bank"]
+		},
+		{
+			"id": "36",
+			"name": "FP302 Power Bank",
+			"image": "/images/products/fp/302.jpeg",
+			"price": 10.99,
+			"description": "MODEL FP302;Power - 20,000mAh;Input - micro/type c;Output - micro/2 usb;Display - light ;Speed - quick charge ;Quality - Original ;Color - white/black",
+			"categories": ["Power Bank"]
+		},
+		{
+			"id": "37",
+			"name": "FP102 Power Bank",
+			"image": "/images/products/fp/102.jpeg",
+			"price": 10.99,
+			"description": "MODEL FP102;Power - 10,000mAh;Input - micro/type c;Output - micro/type c/2 usb;Display - light ;Speed - quick charge ;Quality - Original ;Color - white/black ;Design- Smart",
+			"categories": ["Power Bank"]
+		},
+		{
+			"id": "38",
+			"name": "PD01 Power Bank",
+			"image": "/images/products/pd/01.jpeg",
+			"price": 10.99,
+			"description": "Model - PD1;Power - 15,000mAh ;Input - type c ;Output - type c/1 usb ;Pd power- 22.5w;Display - digital ; Speed - fast charging ;Type c - 2 way pd; Quality - Original ; Color - white/black ; Design- Smart",
+			"categories": ["Power Bank"]
+		},
+		{
+			"id": "38",
+			"name": "PD03 Power Bank",
+			"image": "/images/products/pd/03.jpeg",
+			"price": 10.99,
+			"description": "Model - PD3;Power - 37,000mAh ;Input - micro/type c ;Output - micro/type c/1 usb ;Display - digital ; Speed - fast charging ;Type c - 2 way pd; Quality - Original ; Color - white/black ;Handle - rope; Design- Smart;Cable - attached cables ",
+			"categories": ["Power Bank"]
 		}
 	]
 }
