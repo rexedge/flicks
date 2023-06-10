@@ -16,6 +16,7 @@ const PageIntro: React.FC<PageIntroProps> = ({ height, width, src, alt }) => {
 				width={width}
 				src={src}
 				alt={alt}
+				className='h-full w-full object-cover object-center'
 			/>
 		</div>
 	);

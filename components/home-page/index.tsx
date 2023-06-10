@@ -9,7 +9,10 @@ export default function Homepage() {
 	return (
 		<Fragment>
 			<LoadingIndicator />
-			<Carousel images={CAROUSEL_IMAGES} />
+			<Carousel
+				images={CAROUSEL_IMAGES}
+				nav={true}
+			/>
 			<LatestProducts />
 			<About />
 		</Fragment>

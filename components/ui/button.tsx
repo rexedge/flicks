@@ -1,8 +1,7 @@
 import NextLink from 'next/link';
-import { ReactNode } from 'react';
 
 type ButtonProps = {
-	children: ReactNode;
+	children: React.ReactNode;
 	href?: string;
 	onClick?: () => void;
 	className?: string;
