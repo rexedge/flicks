@@ -3,7 +3,7 @@ import Navbar from '@/components/layout/navigation-bar';
 import ProductPage from '@/components/products-page';
 import Head from 'next/head';
 
-export default function About() {
+export default function Product() {
 	return (
 		<>
 			<Head>
@@ -21,7 +21,7 @@ export default function About() {
 					href='/logo.png'
 				/>
 			</Head>
-			<Navbar />
+			<Navbar fixed={true} />
 			<main>
 				<ProductPage />
 			</main>

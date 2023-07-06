@@ -3,6 +3,8 @@ import { Dialog } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import Image from 'next/image';
+import CartButton from '../products-page/cart-button';
+import { Product } from '@/types/types';
 
 interface NavLink {
 	title: string;
@@ -33,10 +35,18 @@ export default function Navbar({
 	fixed = false,
 }: NavbarProps): JSX.Element {
 	const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-	const isFixed = fixed ? 'fixed top-0 left-0 right-0' : '';
+	const [cartItems, setCartItems] = useState<Product[]>([]);
+
+	const handleAddToCart = (product: Product) => {
+		setCartItems((prevItems) => [...prevItems, product]);
+	};
 
 	return (
-		<header className={`drop-shadow bg-primary-light ${isFixed}`}>
+		<header
+			className={`drop-shadow bg-primary-light ${
+				fixed ? 'fixed top-0 left-0 right-0' : ''
+			}`}
+		>
 			<nav
 				className='mx-auto flex max-w-7xl items-center justify-between p-4 lg:px-8'
 				aria-label='Global'
@@ -92,7 +102,7 @@ export default function Navbar({
 						))}
 				</div>
 				{callToAction && (
-					<div className='hidden lg:flex lg:flex-1 lg:justify-end'>
+					<div className='hidden lg:flex lg:flex-1 lg:justify-end mr-3'>
 						{callToAction.map((cta, index) => (
 							<Link
 								key={index}
@@ -105,6 +115,7 @@ export default function Navbar({
 						))}
 					</div>
 				)}
+				{<CartButton cartItems={cartItems} />}
 			</nav>
 			<Dialog
 				as='div'

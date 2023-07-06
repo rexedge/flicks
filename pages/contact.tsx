@@ -3,7 +3,7 @@ import Footer from '@/components/layout/footer';
 import Navbar from '@/components/layout/navigation-bar';
 import Head from 'next/head';
 
-export default function About() {
+export default function Contact() {
 	return (
 		<>
 			<Head>

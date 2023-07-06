@@ -38,7 +38,7 @@ export default function ProductCard({ product }: Props) {
 				>
 					<Description /> SPECIFICATION
 				</div>
-				<div className={'card-description'}>
+				<div className=''>
 					<SplitText text={description} />
 				</div>
 			</div>
